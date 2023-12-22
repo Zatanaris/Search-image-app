@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Search image app</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <main class="content">
+            <h1 class="content__title">Image Search</h1>
+
+            <form class="form" id="search-form">
+                <input type="search" id="query" placeholder="Search image" />
+                <button type="submit">
+                    <i class="bx bx-search-alt-2"></i>
+                </button>
+            </form>
+
+            <div class="columns" id="result"></div>
+        </main>
+
+        <footer class="footer">
+            <a href="http://www.pexels.com">
+                <img
+                    src="https://images.pexels.com/lib/api/pexels-white.png"
+                    alt=""
+                />
+            </a>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
